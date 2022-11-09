@@ -121,7 +121,7 @@ arrIcons.forEach ((eleIcons) => {
     eleContainer.append(eleCard);
     eleCard.innerHTML += `
     <div class="icon">
-        <i class="${eleIcons.prefix}solid ${eleIcons.prefix}${eleIcons.name}"></i>
+        <i class="${eleIcons.prefix}solid ${eleIcons.prefix}${eleIcons.name} ${eleIcons.color}"></i>
         <div class="title-icon">${eleIcons.name}</div>
     </div>`;
 });
