@@ -116,12 +116,16 @@ const arrIcons = [
 const eleContainer = document.querySelector('.main-container');
 const eleCard = document.createElement('div');
 eleCard.classList.add('card');
+const eleType = document.querySelector('#type');
+const eleNewType = eleType.value;
 
 arrIcons.forEach ((eleIcons) => {
     eleContainer.append(eleCard);
+
     eleCard.innerHTML += `
     <div class="icon">
         <i class="${eleIcons.prefix}solid ${eleIcons.prefix}${eleIcons.name} ${eleIcons.color}"></i>
         <div class="title-icon">${eleIcons.name}</div>
     </div>`;
 });
+
