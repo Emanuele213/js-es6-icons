@@ -129,6 +129,7 @@ function renderIcons(arrData, eleContainer) {
 	eleContainer.innerHTML = '';
 	arrData.forEach(objIcon => eleContainer.innerHTML += generateCard(objIcon));
 
+	// altro metodo 
 	// for (let i = 0; i < arrData.length; i++) {
 	// 	const objIcon = arrData[i];
 	// 	eleContainer.innerHTML += generateCard(objIcon);
