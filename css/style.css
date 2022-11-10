@@ -24,28 +24,25 @@ body {
     margin: 0 auto;
 }
 
-.fa-solid {
-    width: 40px;
-    height: 40px;
-}
-
-.card {
+#icons-container {
     display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     flex-wrap: wrap;
-    gap: 1rem;
-    height: 100%;
-    flex: 0 0 calc((100% / 5) - 1rem);
-    color: black;
 }
 
-.icon {
-    height: auto;
-    width: auto;
-    background-color: white;
-    padding: 1rem 3rem;
-    font-size: 2rem;
-    border-radius: 2rem;
+.fas {
+    font-size: 3rem;
+}
+
+.box {
+    flex-basis: calc(20% - 40px);
+    margin: 20px;
+    padding: 20px;
+    background: rgb(245, 245, 245);
+    border-radius: 10px;
     text-align: center;
+    filter: drop-shadow(1px 1px 1px rgba(0,0,0, 0.5));
 }
 
 .title-icon {
@@ -53,14 +50,3 @@ body {
     font-size: 1rem;
 }
 
-.orange {
-    color: orange;
-}
-
-.green {
-    color: green;
-}
-
-.blue {
-    color: blue;
-}
